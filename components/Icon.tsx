@@ -15,6 +15,12 @@ import {
   Globe2,
   Table2,
   GitCompare,
+  Regex,
+  FileText,
+  CalendarClock,
+  FileCode2,
+  Wand2,
+  Terminal,
   Wrench,
   type LucideIcon,
 } from "lucide-react";
@@ -36,6 +42,12 @@ const registry: Record<string, LucideIcon> = {
   Globe2,
   Table2,
   GitCompare,
+  Regex,
+  FileText,
+  CalendarClock,
+  FileCode2,
+  Wand2,
+  Terminal,
 };
 
 export function Icon({

@@ -30,6 +30,12 @@ on the tool card and in the table below.
 | [HTTP Status Code Lookup](app/tools/http-status-lookup) | Developer | No | [Toolbox](https://github.com/masabinhok) |
 | [CSV ⇄ JSON Converter](app/tools/csv-json-converter) | Developer | No | [Toolbox](https://github.com/masabinhok) |
 | [Diff Checker](app/tools/diff-checker) | Developer | No | [Toolbox](https://github.com/masabinhok) |
+| [Regex Tester](app/tools/regex-tester) | Developer | No | [Toolbox](https://github.com/masabinhok) |
+| [Markdown Previewer](app/tools/markdown-previewer) | Developer | No | [Toolbox](https://github.com/masabinhok) |
+| [Cron Expression Explainer](app/tools/cron-parser) | Developer | No | [Toolbox](https://github.com/masabinhok) |
+| [YAML ⇄ JSON Converter](app/tools/yaml-json-converter) | Developer | No | [Toolbox](https://github.com/masabinhok) |
+| [Code Formatter](app/tools/code-formatter) | Developer | No | [Toolbox](https://github.com/masabinhok) |
+| [curl → fetch Converter](app/tools/curl-to-fetch) | Developer | No | [Toolbox](https://github.com/masabinhok) |
 <!-- TOOLS_TABLE_END -->
 
 Run `npm run generate:readme` after adding a tool to `lib/tools-registry.ts`

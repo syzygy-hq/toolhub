@@ -12,7 +12,7 @@ tool.
 
 Status: ✅ live · 🚧 queued next · ⬜ backlog
 
-## Phase 1 — Developer
+## Phase 1 — Developer ✅ complete
 
 - ✅ JSON Formatter & Validator
 - ✅ Color Converter & Picker
@@ -25,12 +25,12 @@ Status: ✅ live · 🚧 queued next · ⬜ backlog
 - ✅ HTTP Status Code Lookup
 - ✅ CSV ⇄ JSON Converter
 - ✅ Diff Checker
-- 🚧 Regex Tester (match highlighting)
-- 🚧 Markdown Previewer (needs sanitized HTML rendering)
-- 🚧 Cron Expression Parser & Explainer
-- 🚧 YAML ⇄ JSON Converter
-- ⬜ CSS / JS / HTML Minifier & Beautifier
-- ⬜ curl ⇄ fetch code snippet converter
+- ✅ Regex Tester (match highlighting)
+- ✅ Markdown Previewer (sanitized HTML rendering via DOMPurify)
+- ✅ Cron Expression Parser & Explainer
+- ✅ YAML ⇄ JSON Converter
+- ✅ Code Formatter (beautify JS/CSS/HTML, safe minify for CSS/HTML)
+- ✅ curl → fetch code snippet converter
 
 ## Phase 2 — Text
 
