@@ -56,17 +56,17 @@ Status: ✅ live · 🚧 queued next · ⬜ backlog
 - ⬜ Background Remover **[needs API key]**
 - ⬜ Image Upscaler **[needs API key]**
 
-## Phase 4 — Generators
+## Phase 4 — Generators ✅ complete
 
 - ✅ QR Code Generator
 - ✅ Password Generator
-- ⬜ Barcode Generator
-- ⬜ Random Name / Team Generator
-- ⬜ Fake Data Generator (names, emails, addresses — for testing)
-- ⬜ Invoice Generator (client-side PDF)
-- ⬜ Resume / CV Builder → PDF
-- ⬜ Wheel-of-Names Picker
-- ⬜ Dice / Coin Flip
+- ✅ Barcode Generator
+- ✅ Random Name Picker / Team Splitter
+- ✅ Fake Data Generator (names, emails, addresses — for testing)
+- ✅ Invoice Generator (client-side PDF via jsPDF)
+- ✅ Resume / CV Builder → PDF
+- ✅ Wheel-of-Names Picker
+- ✅ Dice / Coin Flip
 
 ## Phase 5 — Security
 

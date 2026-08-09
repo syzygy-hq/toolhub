@@ -48,6 +48,13 @@ on the tool card and in the table below.
 | [Meme Generator](app/tools/meme-generator) | Image | No | [Toolbox](https://github.com/masabinhok) |
 | [Image ⇄ Base64 Converter](app/tools/image-base64-converter) | Image | No | [Toolbox](https://github.com/masabinhok) |
 | [Collage / Grid Maker](app/tools/collage-maker) | Image | No | [Toolbox](https://github.com/masabinhok) |
+| [Barcode Generator](app/tools/barcode-generator) | Generators | No | [Toolbox](https://github.com/masabinhok) |
+| [Random Name Picker & Team Splitter](app/tools/random-picker) | Generators | No | [Toolbox](https://github.com/masabinhok) |
+| [Fake Data Generator](app/tools/fake-data-generator) | Generators | No | [Toolbox](https://github.com/masabinhok) |
+| [Invoice Generator](app/tools/invoice-generator) | Generators | No | [Toolbox](https://github.com/masabinhok) |
+| [Resume / CV Builder](app/tools/resume-builder) | Generators | No | [Toolbox](https://github.com/masabinhok) |
+| [Wheel of Names](app/tools/wheel-of-names) | Generators | No | [Toolbox](https://github.com/masabinhok) |
+| [Dice Roller & Coin Flip](app/tools/dice-coin-flip) | Generators | No | [Toolbox](https://github.com/masabinhok) |
 <!-- TOOLS_TABLE_END -->
 
 Run `npm run generate:readme` after adding a tool to `lib/tools-registry.ts`

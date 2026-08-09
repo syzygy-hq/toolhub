@@ -33,6 +33,13 @@ import {
   Smile,
   Code,
   LayoutGrid,
+  Barcode,
+  Users,
+  Database,
+  Receipt,
+  FileUser,
+  CircleDot,
+  Dices,
   Wrench,
   type LucideIcon,
 } from "lucide-react";
@@ -72,6 +79,13 @@ const registry: Record<string, LucideIcon> = {
   Smile,
   Code,
   LayoutGrid,
+  Barcode,
+  Users,
+  Database,
+  Receipt,
+  FileUser,
+  CircleDot,
+  Dices,
 };
 
 export function Icon({
