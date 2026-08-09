@@ -22,6 +22,14 @@ on the tool card and in the table below.
 | [QR Code Generator](app/tools/qr-code-generator) | Generators | No | [Toolbox](https://github.com/masabinhok) |
 | [Image Compressor](app/tools/image-compressor) | Image | No | [Toolbox](https://github.com/masabinhok) |
 | [Base64 & JWT Decoder](app/tools/base64-jwt-decoder) | Developer | No | [Toolbox](https://github.com/masabinhok) |
+| [URL Encoder / Decoder](app/tools/url-encoder-decoder) | Developer | No | [Toolbox](https://github.com/masabinhok) |
+| [UUID / ULID Generator](app/tools/uuid-generator) | Developer | No | [Toolbox](https://github.com/masabinhok) |
+| [Hash Generator](app/tools/hash-generator) | Developer | No | [Toolbox](https://github.com/masabinhok) |
+| [Timestamp Converter](app/tools/timestamp-converter) | Developer | No | [Toolbox](https://github.com/masabinhok) |
+| [Lorem Ipsum Generator](app/tools/lorem-ipsum-generator) | Developer | No | [Toolbox](https://github.com/masabinhok) |
+| [HTTP Status Code Lookup](app/tools/http-status-lookup) | Developer | No | [Toolbox](https://github.com/masabinhok) |
+| [CSV ⇄ JSON Converter](app/tools/csv-json-converter) | Developer | No | [Toolbox](https://github.com/masabinhok) |
+| [Diff Checker](app/tools/diff-checker) | Developer | No | [Toolbox](https://github.com/masabinhok) |
 <!-- TOOLS_TABLE_END -->
 
 Run `npm run generate:readme` after adding a tool to `lib/tools-registry.ts`

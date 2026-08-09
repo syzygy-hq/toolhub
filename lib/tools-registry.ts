@@ -118,6 +118,94 @@ export const tools: ToolMeta[] = [
     needsBackend: false,
     author: { name: "Toolbox", url: "https://github.com/masabinhok" },
   },
+  {
+    slug: "url-encoder-decoder",
+    name: "URL Encoder / Decoder",
+    description:
+      "Encode or decode URLs and query string components instantly, in your browser.",
+    category: "Developer",
+    tags: ["url", "encode", "decode", "uri"],
+    icon: "Link2",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "uuid-generator",
+    name: "UUID / ULID Generator",
+    description:
+      "Generate v4 UUIDs or sortable ULIDs, one at a time or in bulk.",
+    category: "Developer",
+    tags: ["uuid", "ulid", "generator", "id"],
+    icon: "Fingerprint",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "hash-generator",
+    name: "Hash Generator",
+    description:
+      "Generate SHA-1, SHA-256, SHA-384, and SHA-512 hashes of any text, computed locally.",
+    category: "Developer",
+    tags: ["hash", "sha256", "sha1", "checksum"],
+    icon: "Hash",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "timestamp-converter",
+    name: "Timestamp Converter",
+    description:
+      "Convert between Unix epoch time and human-readable dates, in any timezone.",
+    category: "Developer",
+    tags: ["timestamp", "epoch", "unix", "date"],
+    icon: "Timer",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "lorem-ipsum-generator",
+    name: "Lorem Ipsum Generator",
+    description:
+      "Generate placeholder text by words, sentences, or paragraphs.",
+    category: "Developer",
+    tags: ["lorem ipsum", "placeholder", "generator", "text"],
+    icon: "AlignLeft",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "http-status-lookup",
+    name: "HTTP Status Code Lookup",
+    description:
+      "Look up what any HTTP status code means, with the full reference list searchable.",
+    category: "Developer",
+    tags: ["http", "status code", "reference"],
+    icon: "Globe2",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "csv-json-converter",
+    name: "CSV ⇄ JSON Converter",
+    description:
+      "Convert CSV to JSON or JSON to CSV, with automatic delimiter and type detection.",
+    category: "Developer",
+    tags: ["csv", "json", "converter"],
+    icon: "Table2",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "diff-checker",
+    name: "Diff Checker",
+    description:
+      "Compare two blocks of text and see exactly what changed, line by line.",
+    category: "Developer",
+    tags: ["diff", "compare", "text", "changes"],
+    icon: "GitCompare",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
 ];
 
 export const categories = Array.from(

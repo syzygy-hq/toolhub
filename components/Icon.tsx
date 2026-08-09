@@ -7,6 +7,14 @@ import {
   QrCode,
   ImageDown,
   ScanText,
+  Link2,
+  Fingerprint,
+  Hash,
+  Timer,
+  AlignLeft,
+  Globe2,
+  Table2,
+  GitCompare,
   Wrench,
   type LucideIcon,
 } from "lucide-react";
@@ -20,6 +28,14 @@ const registry: Record<string, LucideIcon> = {
   QrCode,
   ImageDown,
   ScanText,
+  Link2,
+  Fingerprint,
+  Hash,
+  Timer,
+  AlignLeft,
+  Globe2,
+  Table2,
+  GitCompare,
 };
 
 export function Icon({
