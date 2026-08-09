@@ -57,6 +57,11 @@ import {
   Landmark,
   TimerReset,
   Coins,
+  ImagePlay,
+  FileSpreadsheet,
+  Bot,
+  Link2Off,
+  Gauge,
   Wrench,
   type LucideIcon,
 } from "lucide-react";
@@ -120,6 +125,11 @@ const registry: Record<string, LucideIcon> = {
   Landmark,
   TimerReset,
   Coins,
+  ImagePlay,
+  FileSpreadsheet,
+  Bot,
+  Link2Off,
+  Gauge,
 };
 
 export function Icon({

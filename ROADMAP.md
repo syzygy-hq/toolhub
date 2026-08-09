@@ -94,13 +94,13 @@ Status: ✅ live · 🚧 queued next · ⬜ backlog
 - ✅ Pomodoro Timer & Countdown Timer
 - ✅ Currency Converter (backend proxy to Frankfurter — free, no key needed)
 
-## Phase 8 — SEO / Web
+## Phase 8 — SEO / Web ✅ complete
 
-- ⬜ Meta Tag / Open Graph Preview Generator
-- ⬜ Sitemap.xml Generator
-- ⬜ Robots.txt Generator
-- ⬜ Broken Link Checker **[needs API key]**
-- ⬜ Website Speed Test Wrapper **[needs API key — Google PageSpeed]**
+- ✅ Meta Tag / Open Graph Preview Generator
+- ✅ Sitemap.xml Generator
+- ✅ Robots.txt Generator
+- ✅ Broken Link Checker (backend proxy, SSRF-guarded, no key needed)
+- ✅ Website Speed Test (backend proxy to Google PageSpeed Insights, no key required)
 
 ## Phase 9 — Social
 

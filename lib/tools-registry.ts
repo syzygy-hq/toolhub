@@ -6,7 +6,8 @@ export type ToolCategory =
   | "Generators"
   | "Security"
   | "PDF"
-  | "Productivity";
+  | "Productivity"
+  | "SEO & Web";
 
 export interface ToolAuthor {
   name: string;
@@ -630,6 +631,56 @@ export const tools: ToolMeta[] = [
     category: "Productivity",
     tags: ["currency", "exchange rate", "converter", "money"],
     icon: "Coins",
+    needsBackend: true,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "meta-tag-generator",
+    name: "Meta Tag & Open Graph Generator",
+    description: "Generate title, description, Open Graph, and Twitter card tags, with a live preview.",
+    category: "SEO & Web",
+    tags: ["seo", "meta tags", "open graph", "twitter card"],
+    icon: "ImagePlay",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "sitemap-generator",
+    name: "Sitemap.xml Generator",
+    description: "Turn a list of URLs into a valid sitemap.xml, ready to submit to search engines.",
+    category: "SEO & Web",
+    tags: ["sitemap", "seo", "xml", "generator"],
+    icon: "FileSpreadsheet",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "robots-generator",
+    name: "Robots.txt Generator",
+    description: "Build a robots.txt with per-bot allow/disallow rules and a sitemap reference.",
+    category: "SEO & Web",
+    tags: ["robots.txt", "seo", "crawlers", "generator"],
+    icon: "Bot",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "broken-link-checker",
+    name: "Broken Link Checker",
+    description: "Check a list of URLs for broken links and see each one's HTTP status.",
+    category: "SEO & Web",
+    tags: ["broken links", "seo", "http status", "checker"],
+    icon: "Link2Off",
+    needsBackend: true,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "speed-test",
+    name: "Website Speed Test",
+    description: "Run a real Lighthouse performance audit on any public URL.",
+    category: "SEO & Web",
+    tags: ["speed test", "performance", "lighthouse", "seo"],
+    icon: "Gauge",
     needsBackend: true,
     author: { name: "Toolbox", url: "https://github.com/masabinhok" },
   },

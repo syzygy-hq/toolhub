@@ -72,6 +72,11 @@ on the tool card and in the table below.
 | [Loan / EMI Calculator](app/tools/loan-calculator) | Productivity | No | [Toolbox](https://github.com/masabinhok) |
 | [Pomodoro & Countdown Timer](app/tools/pomodoro-timer) | Productivity | No | [Toolbox](https://github.com/masabinhok) |
 | [Currency Converter](app/tools/currency-converter) | Productivity | Yes | [Toolbox](https://github.com/masabinhok) |
+| [Meta Tag & Open Graph Generator](app/tools/meta-tag-generator) | SEO & Web | No | [Toolbox](https://github.com/masabinhok) |
+| [Sitemap.xml Generator](app/tools/sitemap-generator) | SEO & Web | No | [Toolbox](https://github.com/masabinhok) |
+| [Robots.txt Generator](app/tools/robots-generator) | SEO & Web | No | [Toolbox](https://github.com/masabinhok) |
+| [Broken Link Checker](app/tools/broken-link-checker) | SEO & Web | Yes | [Toolbox](https://github.com/masabinhok) |
+| [Website Speed Test](app/tools/speed-test) | SEO & Web | Yes | [Toolbox](https://github.com/masabinhok) |
 <!-- TOOLS_TABLE_END -->
 
 Run `npm run generate:readme` after adding a tool to `lib/tools-registry.ts`
