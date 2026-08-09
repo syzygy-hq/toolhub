@@ -4,7 +4,8 @@ export type ToolCategory =
   | "Text"
   | "Image"
   | "Generators"
-  | "Security";
+  | "Security"
+  | "PDF";
 
 export interface ToolAuthor {
   name: string;
@@ -499,6 +500,66 @@ export const tools: ToolMeta[] = [
     tags: ["ssl", "tls", "certificate", "https"],
     icon: "ScanSearch",
     needsBackend: true,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "pdf-merge",
+    name: "Merge PDF",
+    description: "Combine multiple PDF files into one, in the order you choose.",
+    category: "PDF",
+    tags: ["pdf", "merge", "combine"],
+    icon: "FilePlus2",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "pdf-split",
+    name: "Split PDF",
+    description: "Extract a page range from a PDF, or split it into individual pages.",
+    category: "PDF",
+    tags: ["pdf", "split", "extract", "pages"],
+    icon: "Scissors",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "pdf-compress",
+    name: "Compress PDF",
+    description: "Strip metadata and repack a PDF's internal structure to shave off some size.",
+    category: "PDF",
+    tags: ["pdf", "compress", "optimize"],
+    icon: "FileMinus2",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "pdf-watermark",
+    name: "Watermark PDF",
+    description: "Stamp a diagonal text watermark across every page of a PDF.",
+    category: "PDF",
+    tags: ["pdf", "watermark", "stamp"],
+    icon: "Stamp",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "images-to-pdf",
+    name: "Images to PDF",
+    description: "Combine one or more images into a single PDF, reorderable before export.",
+    category: "PDF",
+    tags: ["images", "pdf", "convert"],
+    icon: "Images",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "pdf-to-images",
+    name: "PDF to Images",
+    description: "Render every page of a PDF as a downloadable PNG image.",
+    category: "PDF",
+    tags: ["pdf", "images", "convert", "render"],
+    icon: "FileOutput",
+    needsBackend: false,
     author: { name: "Toolbox", url: "https://github.com/masabinhok" },
   },
 ];

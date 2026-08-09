@@ -59,6 +59,12 @@ on the tool card and in the table below.
 | [2FA / TOTP Code Generator](app/tools/totp-generator) | Security | No | [Toolbox](https://github.com/masabinhok) |
 | [Password Breach Checker](app/tools/password-breach-checker) | Security | No | [Toolbox](https://github.com/masabinhok) |
 | [SSL Certificate Checker](app/tools/ssl-certificate-checker) | Security | Yes | [Toolbox](https://github.com/masabinhok) |
+| [Merge PDF](app/tools/pdf-merge) | PDF | No | [Toolbox](https://github.com/masabinhok) |
+| [Split PDF](app/tools/pdf-split) | PDF | No | [Toolbox](https://github.com/masabinhok) |
+| [Compress PDF](app/tools/pdf-compress) | PDF | No | [Toolbox](https://github.com/masabinhok) |
+| [Watermark PDF](app/tools/pdf-watermark) | PDF | No | [Toolbox](https://github.com/masabinhok) |
+| [Images to PDF](app/tools/images-to-pdf) | PDF | No | [Toolbox](https://github.com/masabinhok) |
+| [PDF to Images](app/tools/pdf-to-images) | PDF | No | [Toolbox](https://github.com/masabinhok) |
 <!-- TOOLS_TABLE_END -->
 
 Run `npm run generate:readme` after adding a tool to `lib/tools-registry.ts`

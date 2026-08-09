@@ -75,13 +75,14 @@ Status: ✅ live · 🚧 queued next · ⬜ backlog
 - ✅ Password Breach Checker (HaveIBeenPwned k-anonymity — free, no key needed)
 - ✅ SSL/TLS Certificate Checker (backend proxy to crt.sh — free, no key needed)
 
-## Phase 6 — PDF
+## Phase 6 — PDF ✅ complete
 
-- ⬜ Merge / Split PDF
-- ⬜ PDF ⇄ Image
-- ⬜ Compress PDF
-- ⬜ Watermark PDF
-- ⬜ Image(s) → PDF
+- ✅ Merge PDF
+- ✅ Split PDF (page range or split into individual pages)
+- ✅ PDF → Images (pdfjs-dist render)
+- ✅ Images → PDF
+- ✅ Compress PDF (metadata strip + repack — honest about limits, no image recompression)
+- ✅ Watermark PDF
 
 ## Phase 7 — Productivity / Calculators
 

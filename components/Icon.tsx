@@ -44,6 +44,12 @@ import {
   ShieldAlert,
   ScanSearch,
   Lock,
+  FilePlus2,
+  Scissors,
+  FileMinus2,
+  Stamp,
+  FileOutput,
+  Images,
   Wrench,
   type LucideIcon,
 } from "lucide-react";
@@ -94,6 +100,12 @@ const registry: Record<string, LucideIcon> = {
   ShieldAlert,
   ScanSearch,
   Lock,
+  FilePlus2,
+  Scissors,
+  FileMinus2,
+  Stamp,
+  FileOutput,
+  Images,
 };
 
 export function Icon({
