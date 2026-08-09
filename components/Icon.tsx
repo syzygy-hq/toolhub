@@ -50,6 +50,13 @@ import {
   Stamp,
   FileOutput,
   Images,
+  Cake,
+  Ruler,
+  Globe,
+  Percent,
+  Landmark,
+  TimerReset,
+  Coins,
   Wrench,
   type LucideIcon,
 } from "lucide-react";
@@ -106,6 +113,13 @@ const registry: Record<string, LucideIcon> = {
   Stamp,
   FileOutput,
   Images,
+  Cake,
+  Ruler,
+  Globe,
+  Percent,
+  Landmark,
+  TimerReset,
+  Coins,
 };
 
 export function Icon({

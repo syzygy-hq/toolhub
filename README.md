@@ -65,6 +65,13 @@ on the tool card and in the table below.
 | [Watermark PDF](app/tools/pdf-watermark) | PDF | No | [Toolbox](https://github.com/masabinhok) |
 | [Images to PDF](app/tools/images-to-pdf) | PDF | No | [Toolbox](https://github.com/masabinhok) |
 | [PDF to Images](app/tools/pdf-to-images) | PDF | No | [Toolbox](https://github.com/masabinhok) |
+| [Age Calculator](app/tools/age-calculator) | Productivity | No | [Toolbox](https://github.com/masabinhok) |
+| [Unit Converter](app/tools/unit-converter) | Productivity | No | [Toolbox](https://github.com/masabinhok) |
+| [Timezone Meeting Planner](app/tools/timezone-planner) | Productivity | No | [Toolbox](https://github.com/masabinhok) |
+| [Tip & Percentage Calculator](app/tools/tip-calculator) | Productivity | No | [Toolbox](https://github.com/masabinhok) |
+| [Loan / EMI Calculator](app/tools/loan-calculator) | Productivity | No | [Toolbox](https://github.com/masabinhok) |
+| [Pomodoro & Countdown Timer](app/tools/pomodoro-timer) | Productivity | No | [Toolbox](https://github.com/masabinhok) |
+| [Currency Converter](app/tools/currency-converter) | Productivity | Yes | [Toolbox](https://github.com/masabinhok) |
 <!-- TOOLS_TABLE_END -->
 
 Run `npm run generate:readme` after adding a tool to `lib/tools-registry.ts`

@@ -84,15 +84,15 @@ Status: ✅ live · 🚧 queued next · ⬜ backlog
 - ✅ Compress PDF (metadata strip + repack — honest about limits, no image recompression)
 - ✅ Watermark PDF
 
-## Phase 7 — Productivity / Calculators
+## Phase 7 — Productivity / Calculators ✅ complete
 
-- ⬜ Age Calculator
-- ⬜ Unit Converter
-- ⬜ Timezone / Meeting Planner
-- ⬜ Percentage & Tip Calculator
-- ⬜ Loan / EMI Calculator
-- ⬜ Countdown Timer / Pomodoro Timer
-- ⬜ Currency Converter **[needs API key]**
+- ✅ Age Calculator
+- ✅ Unit Converter (length, weight, temperature, volume, speed, data)
+- ✅ Timezone / Meeting Planner
+- ✅ Percentage & Tip Calculator
+- ✅ Loan / EMI Calculator
+- ✅ Pomodoro Timer & Countdown Timer
+- ✅ Currency Converter (backend proxy to Frankfurter — free, no key needed)
 
 ## Phase 8 — SEO / Web
 

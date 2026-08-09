@@ -5,7 +5,8 @@ export type ToolCategory =
   | "Image"
   | "Generators"
   | "Security"
-  | "PDF";
+  | "PDF"
+  | "Productivity";
 
 export interface ToolAuthor {
   name: string;
@@ -560,6 +561,76 @@ export const tools: ToolMeta[] = [
     tags: ["pdf", "images", "convert", "render"],
     icon: "FileOutput",
     needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "age-calculator",
+    name: "Age Calculator",
+    description: "Find exact age in years, months, and days between two dates, plus days to the next birthday.",
+    category: "Productivity",
+    tags: ["age", "calculator", "date", "birthday"],
+    icon: "Cake",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "unit-converter",
+    name: "Unit Converter",
+    description: "Convert length, weight, temperature, volume, speed, and data units.",
+    category: "Productivity",
+    tags: ["unit", "converter", "length", "weight", "temperature"],
+    icon: "Ruler",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "timezone-planner",
+    name: "Timezone Meeting Planner",
+    description: "See what time it is across timezones at a glance, to plan a meeting that works for everyone.",
+    category: "Productivity",
+    tags: ["timezone", "meeting", "planner", "world clock"],
+    icon: "Globe",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "tip-calculator",
+    name: "Tip & Percentage Calculator",
+    description: "Split a bill with tip between people, or work out any percentage calculation.",
+    category: "Productivity",
+    tags: ["tip", "percentage", "calculator", "bill split"],
+    icon: "Percent",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "loan-calculator",
+    name: "Loan / EMI Calculator",
+    description: "Calculate monthly payments, total interest, and an amortization preview for any loan.",
+    category: "Productivity",
+    tags: ["loan", "emi", "mortgage", "calculator"],
+    icon: "Landmark",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "pomodoro-timer",
+    name: "Pomodoro & Countdown Timer",
+    description: "Run focus/break cycles, or count down to any date and time.",
+    category: "Productivity",
+    tags: ["pomodoro", "timer", "countdown", "focus"],
+    icon: "TimerReset",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "currency-converter",
+    name: "Currency Converter",
+    description: "Convert between world currencies using daily reference exchange rates.",
+    category: "Productivity",
+    tags: ["currency", "exchange rate", "converter", "money"],
+    icon: "Coins",
+    needsBackend: true,
     author: { name: "Toolbox", url: "https://github.com/masabinhok" },
   },
 ];
