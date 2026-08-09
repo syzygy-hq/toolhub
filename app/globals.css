@@ -1,26 +1,67 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --paper: #edefec;
+  --paper-card: #ffffff;
+  --ink: #201f1c;
+  --ink-soft: #5a584f;
+  --amber: #d98a12;
+  --amber-soft: #f8e6c4;
+  --steel: #3b6e8f;
+  --steel-soft: #dde7ec;
+  --line: #d6d8cf;
+  --hole: #c9cbc1;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-paper: var(--paper);
+  --color-paper-card: var(--paper-card);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-amber: var(--amber);
+  --color-amber-soft: var(--amber-soft);
+  --color-steel: var(--steel);
+  --color-steel-soft: var(--steel-soft);
+  --color-line: var(--line);
+  --color-hole: var(--hole);
+  --font-display: var(--font-space-grotesk);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-plex-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --paper: #1c1b18;
+    --paper-card: #26251f;
+    --ink: #f1efe6;
+    --ink-soft: #b3b0a3;
+    --amber: #e6a13a;
+    --amber-soft: #3a3020;
+    --steel: #7fb2cf;
+    --steel-soft: #223038;
+    --line: #3a3830;
+    --hole: #141310;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans), sans-serif;
+  background-image: radial-gradient(var(--hole) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+* {
+  border-color: var(--line);
+}
+
+::selection {
+  background: var(--amber);
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 2px;
 }

@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Toolbox
 
-## Getting Started
+A free, open-source workshop of small, useful tools — a YouTube playlist
+length calculator, JSON formatter, password generator, and more. No accounts,
+no tracking, no paywalls. Built one tool at a time, and built to stay free:
+almost every tool runs entirely in your browser.
 
-First, run the development server:
+It's open source so you can add your own. See [CONTRIBUTING.md](CONTRIBUTING.md)
+or the [/contribute](app/contribute) page for how — your name and a link go
+on the tool card and in the table below.
+
+## Tools
+
+<!-- TOOLS_TABLE_START -->
+| Tool | Category | Needs backend | Author |
+| --- | --- | --- | --- |
+| [YouTube Playlist Length Calculator](app/tools/youtube-playlist-length) | Video & Audio | Yes | [Toolbox](https://github.com) |
+| [JSON Formatter & Validator](app/tools/json-formatter) | Developer | No | [Toolbox](https://github.com) |
+| [Password Generator](app/tools/password-generator) | Security | No | [Toolbox](https://github.com) |
+| [Word & Character Counter](app/tools/word-counter) | Text | No | [Toolbox](https://github.com) |
+| [Color Converter & Picker](app/tools/color-converter) | Developer | No | [Toolbox](https://github.com) |
+| [QR Code Generator](app/tools/qr-code-generator) | Generators | No | [Toolbox](https://github.com) |
+| [Image Compressor](app/tools/image-compressor) | Image | No | [Toolbox](https://github.com) |
+| [Base64 & JWT Decoder](app/tools/base64-jwt-decoder) | Developer | No | [Toolbox](https://github.com) |
+<!-- TOOLS_TABLE_END -->
+
+Run `npm run generate:readme` after adding a tool to `lib/tools-registry.ts`
+to refresh this table.
+
+## Getting started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Most tools need nothing else. The YouTube Playlist Length Calculator can
+optionally use a shared server key — copy `.env.example` to `.env.local` and
+add a free `YOUTUBE_API_KEY` (from the Google Cloud Console, with the
+"YouTube Data API v3" enabled). Without it, visitors are simply prompted to
+paste their own free key instead.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Stack
 
-## Learn More
+Next.js (App Router) + TypeScript + Tailwind CSS, deployed on Vercel's free
+tier. No database, no separate backend — server-only tools use Next.js API
+routes, everything else runs client-side.
 
-To learn more about Next.js, take a look at the following resources:
+## Deploy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The easiest way to deploy is [Vercel](https://vercel.com/new). No paid add-ons
+are required.

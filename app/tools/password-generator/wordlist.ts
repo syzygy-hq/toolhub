@@ -1,0 +1,15 @@
+export const words = [
+  "anchor","banjo","canyon","dapper","ember","falcon","glimmer","harbor",
+  "ivory","jungle","kettle","lantern","marble","nectar","orbit","pepper",
+  "quartz","ribbon","silver","tundra","umbrella","velvet","willow","xenon",
+  "yonder","zephyr","amber","boulder","cactus","dune","echo","fable",
+  "granite","haven","indigo","jasper","knight","lagoon","meadow","nimbus",
+  "opal","prairie","quill","raven","summit","thicket","utopia","voyage",
+  "walnut","yolk","zebra","acorn","breeze","cinder","drift","elm",
+  "frost","glacier","horizon","island","juniper","kestrel","lumen","mirage",
+  "nomad","oasis","pebble","quiver","ridge","sable","timber","urchin",
+  "vapor","wren","yarrow","zenith","alder","basil","clover","dahlia",
+  "ferry","grove","holly","ibis","jade","kelp","linen","maple",
+  "nectarine","onyx","poppy","quokka","reed","sequoia","thistle","urban",
+  "violet","wisteria","yew","zinc","aspen","brook","cedar","delta",
+];
