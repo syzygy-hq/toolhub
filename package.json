@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/syzygy-hq/toolhub.git"
   },
-  "homepage": "https://github.com/syzygy-hq/toolhub#readme",
+  "homepage": "https://syzygy-toolhub.vercel.app",
   "bugs": {
     "url": "https://github.com/syzygy-hq/toolhub/issues"
   },

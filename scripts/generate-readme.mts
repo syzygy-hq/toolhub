@@ -3,6 +3,7 @@ import { tools } from "../lib/tools-registry";
 
 const START = "<!-- TOOLS_TABLE_START -->";
 const END = "<!-- TOOLS_TABLE_END -->";
+const SITE_URL = "https://syzygy-toolhub.vercel.app";
 
 const rows = tools
   .map((t) => {
@@ -10,7 +11,7 @@ const rows = tools
       ? `[${t.author.name}](${t.author.url})`
       : t.author.name;
     const backend = t.needsBackend ? "Yes" : "No";
-    return `| [${t.name}](app/tools/${t.slug}) | ${t.category} | ${backend} | ${author} |`;
+    return `| [${t.name}](${SITE_URL}/tools/${t.slug}) | ${t.category} | ${backend} | ${author} |`;
   })
   .join("\n");
 

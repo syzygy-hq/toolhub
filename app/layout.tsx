@@ -21,6 +21,7 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://syzygy-toolhub.vercel.app"),
   title: "Toolhub — small, useful tools",
   description:
     "A free, open-source workshop of small utilities: YouTube playlist length, JSON formatting, password generation, and more. Add your own tool and get credited.",
