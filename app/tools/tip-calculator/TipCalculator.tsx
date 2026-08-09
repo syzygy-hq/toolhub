@@ -65,7 +65,7 @@ function TipPanel() {
         </Field>
       </div>
 
-      <div className="flex gap-2">
+      <div className="flex flex-wrap gap-2">
         {[10, 15, 18, 20, 25].map((p) => (
           <button
             key={p}

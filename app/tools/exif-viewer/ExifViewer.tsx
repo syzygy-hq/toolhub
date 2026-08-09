@@ -59,7 +59,7 @@ export function ExifViewer() {
       </label>
 
       {previewUrl && (
-        <div className="flex items-center gap-4">
+        <div className="flex flex-wrap items-center gap-4">
           {/* eslint-disable-next-line @next/next/no-img-element -- local blob preview */}
           <img src={previewUrl} alt={file?.name} className="h-24 w-24 rounded-md border border-line object-cover" />
           <button

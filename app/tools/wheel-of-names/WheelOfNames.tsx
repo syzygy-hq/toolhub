@@ -84,7 +84,7 @@ export function WheelOfNames() {
         />
 
         <div className="flex flex-col items-center gap-4">
-          <div className="relative" style={{ width: SIZE, height: SIZE }}>
+          <div className="relative aspect-square w-full max-w-[320px]">
             <div
               className="absolute left-1/2 top-0 z-10 -translate-x-1/2 -translate-y-1/2 border-x-[10px] border-t-[16px] border-x-transparent border-t-amber"
               aria-hidden
@@ -93,7 +93,7 @@ export function WheelOfNames() {
               ref={canvasRef}
               width={SIZE}
               height={SIZE}
-              className="rounded-full border-2 border-line transition-transform duration-[4000ms] ease-out"
+              className="h-full w-full rounded-full border-2 border-line transition-transform duration-[4000ms] ease-out"
               style={{ transform: `rotate(${rotation}deg)` }}
               onTransitionEnd={() => {
                 setSpinning(false);

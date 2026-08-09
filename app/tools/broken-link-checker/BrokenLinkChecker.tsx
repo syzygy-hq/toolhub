@@ -77,7 +77,7 @@ export function BrokenLinkChecker() {
               ) : (
                 <XCircle className="h-4 w-4 shrink-0 text-red-600" />
               )}
-              <p className="flex-1 truncate font-mono text-sm text-ink">{r.url}</p>
+              <p className="min-w-0 flex-1 truncate font-mono text-sm text-ink">{r.url}</p>
               <span className="font-mono text-xs text-ink-soft">{r.status ?? r.error}</span>
             </div>
           ))}

@@ -69,7 +69,7 @@ export function PdfMerge() {
           {files.map((file, i) => (
             <div key={i} className="flex items-center gap-3 rounded-lg border border-line bg-paper p-3">
               <span className="w-6 text-center font-mono text-xs text-ink-soft">{i + 1}</span>
-              <p className="flex-1 truncate text-sm text-ink">{file.name}</p>
+              <p className="min-w-0 flex-1 truncate text-sm text-ink">{file.name}</p>
               <button onClick={() => move(i, -1)} disabled={i === 0} className="text-ink-soft hover:text-amber disabled:opacity-30">
                 <ArrowUp className="h-4 w-4" />
               </button>

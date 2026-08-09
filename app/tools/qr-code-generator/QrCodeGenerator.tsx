@@ -64,8 +64,8 @@ export function QrCodeGenerator() {
       </div>
 
       <div className="flex flex-col items-center gap-3">
-        <div className="grid h-[288px] w-[288px] place-items-center rounded-xl border border-line bg-paper-card p-2">
-          <canvas ref={canvasRef} width={288} height={288} />
+        <div className="grid aspect-square w-full max-w-[288px] place-items-center rounded-xl border border-line bg-paper-card p-2">
+          <canvas ref={canvasRef} width={288} height={288} className="h-full w-full" />
         </div>
         <button
           onClick={download}

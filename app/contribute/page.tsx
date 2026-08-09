@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
 export const metadata = {
-  title: "Contribute a tool — Toolbox",
+  title: "Contribute a tool — Toolhub",
 };
 
 export default function ContributePage() {
@@ -20,7 +20,7 @@ export default function ContributePage() {
         Add your tool
       </h1>
       <p className="mt-3 max-w-xl text-base leading-relaxed text-ink-soft">
-        Toolbox is open source. Build something useful, open a PR, and your
+        Toolhub is open source. Build something useful, open a PR, and your
         name (and a link to your site, GitHub, or socials) goes on the tool
         card and in the README. No gatekeeping, no fees — this is the
         self-promo you were promised.

@@ -4,14 +4,14 @@ import { useMemo, useState } from "react";
 import { CopyButton } from "@/components/CopyButton";
 
 export function MetaTagGenerator() {
-  const [title, setTitle] = useState("Toolbox — small, useful tools");
+  const [title, setTitle] = useState("Toolhub — small, useful tools");
   const [description, setDescription] = useState(
     "A free, open-source workshop of small utilities. No accounts, no tracking, no paywalls."
   );
   const [url, setUrl] = useState("https://example.com");
   const [image, setImage] = useState("https://example.com/og-image.png");
-  const [siteName, setSiteName] = useState("Toolbox");
-  const [twitterHandle, setTwitterHandle] = useState("@toolbox");
+  const [siteName, setSiteName] = useState("Toolhub");
+  const [twitterHandle, setTwitterHandle] = useState("@toolhub");
 
   const markup = useMemo(() => {
     return `<title>${title}</title>

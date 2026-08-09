@@ -76,8 +76,8 @@ export function BarcodeGenerator() {
         </p>
       )}
 
-      <div className="flex justify-center rounded-lg border border-line bg-white p-4">
-        <canvas ref={canvasRef} className={error ? "hidden" : ""} />
+      <div className="flex justify-center overflow-x-auto rounded-lg border border-line bg-white p-4">
+        <canvas ref={canvasRef} className={`max-w-full ${error ? "hidden" : ""}`} />
       </div>
 
       <button

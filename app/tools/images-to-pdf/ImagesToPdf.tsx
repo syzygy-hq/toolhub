@@ -88,7 +88,7 @@ export function ImagesToPdf() {
               <span className="w-6 text-center font-mono text-xs text-ink-soft">{i + 1}</span>
               {/* eslint-disable-next-line @next/next/no-img-element -- local blob thumbnail */}
               <img src={entry.url} alt="" className="h-12 w-12 rounded-md border border-line object-cover" />
-              <p className="flex-1 truncate text-sm text-ink">{entry.file.name}</p>
+              <p className="min-w-0 flex-1 truncate text-sm text-ink">{entry.file.name}</p>
               <button onClick={() => move(i, -1)} disabled={i === 0} className="text-ink-soft hover:text-amber disabled:opacity-30">
                 <ArrowUp className="h-4 w-4" />
               </button>

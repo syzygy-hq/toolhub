@@ -21,7 +21,7 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Toolbox — small, useful tools",
+  title: "Toolhub — small, useful tools",
   description:
     "A free, open-source workshop of small utilities: YouTube playlist length, JSON formatting, password generation, and more. Add your own tool and get credited.",
 };
@@ -45,20 +45,23 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               >
                 🧰
               </span>
-              Toolbox
+              Toolhub
             </Link>
-            <nav className="flex items-center gap-5 font-mono text-xs uppercase tracking-wide text-ink-soft">
-              <Link href="/#tools" className="hover:text-ink transition-colors">
+            <nav className="flex items-center gap-3 font-mono text-xs uppercase tracking-wide text-ink-soft sm:gap-5">
+              <Link
+                href="/#tools"
+                className="hidden hover:text-ink transition-colors sm:inline"
+              >
                 Tools
               </Link>
               <Link href="/contribute" className="hover:text-ink transition-colors">
                 Contribute
               </Link>
               <a
-                href="https://github.com/masabinhok/tools"
+                href="https://github.com/syzygy-hq/toolhub"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-md border border-line bg-paper-card px-3 py-1.5 text-ink hover:border-amber hover:text-amber transition-colors"
+                className="rounded-md border border-line bg-paper-card px-2.5 py-1.5 text-ink hover:border-amber hover:text-amber transition-colors sm:px-3"
               >
                 GitHub
               </a>
@@ -68,11 +71,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <main className="flex-1">{children}</main>
         <footer className="border-t border-line">
           <div className="mx-auto flex max-w-7xl flex-col gap-2 px-5 py-8 font-mono text-xs text-ink-soft sm:flex-row sm:items-center sm:justify-between">
-            <p>Toolbox — free & open source. No accounts, no tracking, no paywalls.</p>
+            <p>Toolhub — free & open source. No accounts, no tracking, no paywalls.</p>
             <p>
               Built one tool at a time.{" "}
               <a
-                href="https://github.com/masabinhok/tools"
+                href="https://github.com/syzygy-hq/toolhub"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-ink hover:text-amber transition-colors"

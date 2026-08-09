@@ -48,7 +48,7 @@ export function ToolGrid() {
           </div>
         )
       ) : (
-        <div className="flex gap-10">
+        <div className="flex flex-col gap-6 lg:flex-row lg:gap-10">
           <CategoryRail />
           <div className="min-w-0 flex-1">
             {categories.map((category) => {

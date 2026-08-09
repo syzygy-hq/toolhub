@@ -40,7 +40,7 @@ export const tools: ToolMeta[] = [
     icon: "ListVideo",
     needsBackend: true,
     premiumAlternativeTo: "playlist length calculator extensions",
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "json-formatter",
@@ -51,7 +51,7 @@ export const tools: ToolMeta[] = [
     tags: ["json", "formatter", "validator", "beautify"],
     icon: "Braces",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "password-generator",
@@ -63,7 +63,7 @@ export const tools: ToolMeta[] = [
     icon: "KeyRound",
     needsBackend: false,
     premiumAlternativeTo: "password manager generators",
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "word-counter",
@@ -74,7 +74,7 @@ export const tools: ToolMeta[] = [
     tags: ["text", "word count", "characters", "reading time"],
     icon: "Type",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "color-converter",
@@ -85,7 +85,7 @@ export const tools: ToolMeta[] = [
     tags: ["color", "hex", "rgb", "hsl", "picker"],
     icon: "Palette",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "qr-code-generator",
@@ -97,7 +97,7 @@ export const tools: ToolMeta[] = [
     icon: "QrCode",
     needsBackend: false,
     premiumAlternativeTo: "paid QR code generators",
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "image-compressor",
@@ -109,7 +109,7 @@ export const tools: ToolMeta[] = [
     icon: "ImageDown",
     needsBackend: false,
     premiumAlternativeTo: "TinyPNG-style compressors",
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "base64-jwt-decoder",
@@ -120,7 +120,7 @@ export const tools: ToolMeta[] = [
     tags: ["base64", "jwt", "decoder", "encode"],
     icon: "ScanText",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "url-encoder-decoder",
@@ -131,7 +131,7 @@ export const tools: ToolMeta[] = [
     tags: ["url", "encode", "decode", "uri"],
     icon: "Link2",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "uuid-generator",
@@ -142,7 +142,7 @@ export const tools: ToolMeta[] = [
     tags: ["uuid", "ulid", "generator", "id"],
     icon: "Fingerprint",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "hash-generator",
@@ -153,7 +153,7 @@ export const tools: ToolMeta[] = [
     tags: ["hash", "sha256", "sha1", "checksum"],
     icon: "Hash",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "timestamp-converter",
@@ -164,7 +164,7 @@ export const tools: ToolMeta[] = [
     tags: ["timestamp", "epoch", "unix", "date"],
     icon: "Timer",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "lorem-ipsum-generator",
@@ -175,7 +175,7 @@ export const tools: ToolMeta[] = [
     tags: ["lorem ipsum", "placeholder", "generator", "text"],
     icon: "AlignLeft",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "http-status-lookup",
@@ -186,7 +186,7 @@ export const tools: ToolMeta[] = [
     tags: ["http", "status code", "reference"],
     icon: "Globe2",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "csv-json-converter",
@@ -197,7 +197,7 @@ export const tools: ToolMeta[] = [
     tags: ["csv", "json", "converter"],
     icon: "Table2",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "diff-checker",
@@ -208,7 +208,7 @@ export const tools: ToolMeta[] = [
     tags: ["diff", "compare", "text", "changes"],
     icon: "GitCompare",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "regex-tester",
@@ -219,7 +219,7 @@ export const tools: ToolMeta[] = [
     tags: ["regex", "regular expression", "tester", "pattern"],
     icon: "Regex",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "markdown-previewer",
@@ -229,7 +229,7 @@ export const tools: ToolMeta[] = [
     tags: ["markdown", "preview", "editor"],
     icon: "FileText",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "cron-parser",
@@ -240,7 +240,7 @@ export const tools: ToolMeta[] = [
     tags: ["cron", "schedule", "explainer"],
     icon: "CalendarClock",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "yaml-json-converter",
@@ -250,7 +250,7 @@ export const tools: ToolMeta[] = [
     tags: ["yaml", "json", "converter"],
     icon: "FileCode2",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "code-formatter",
@@ -260,7 +260,7 @@ export const tools: ToolMeta[] = [
     tags: ["formatter", "beautify", "minify", "css", "html", "javascript"],
     icon: "Wand2",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "curl-to-fetch",
@@ -270,7 +270,7 @@ export const tools: ToolMeta[] = [
     tags: ["curl", "fetch", "converter", "snippet"],
     icon: "Terminal",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "case-converter",
@@ -281,7 +281,7 @@ export const tools: ToolMeta[] = [
     tags: ["case", "camelcase", "snake_case", "converter"],
     icon: "CaseSensitive",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "slug-generator",
@@ -291,7 +291,7 @@ export const tools: ToolMeta[] = [
     tags: ["slug", "url", "seo", "generator"],
     icon: "Slash",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "find-replace",
@@ -301,7 +301,7 @@ export const tools: ToolMeta[] = [
     tags: ["find", "replace", "regex", "text"],
     icon: "Replace",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "line-tools",
@@ -311,7 +311,7 @@ export const tools: ToolMeta[] = [
     tags: ["duplicate", "lines", "sort", "dedupe"],
     icon: "Rows3",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "text-to-speech",
@@ -321,7 +321,7 @@ export const tools: ToolMeta[] = [
     tags: ["text to speech", "tts", "accessibility", "audio"],
     icon: "Volume2",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "image-format-converter",
@@ -331,7 +331,7 @@ export const tools: ToolMeta[] = [
     tags: ["image", "convert", "png", "jpeg", "webp"],
     icon: "FileImage",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "image-resizer",
@@ -341,7 +341,7 @@ export const tools: ToolMeta[] = [
     tags: ["image", "resize", "dimensions"],
     icon: "Maximize2",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "favicon-generator",
@@ -351,7 +351,7 @@ export const tools: ToolMeta[] = [
     tags: ["favicon", "icon", "generator"],
     icon: "AppWindow",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "exif-viewer",
@@ -361,7 +361,7 @@ export const tools: ToolMeta[] = [
     tags: ["exif", "metadata", "privacy", "photo"],
     icon: "Info",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "meme-generator",
@@ -371,7 +371,7 @@ export const tools: ToolMeta[] = [
     tags: ["meme", "generator", "caption", "image"],
     icon: "Smile",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "image-base64-converter",
@@ -381,7 +381,7 @@ export const tools: ToolMeta[] = [
     tags: ["image", "base64", "data url", "converter"],
     icon: "Code",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "collage-maker",
@@ -391,7 +391,7 @@ export const tools: ToolMeta[] = [
     tags: ["collage", "grid", "photos", "layout"],
     icon: "LayoutGrid",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "barcode-generator",
@@ -401,7 +401,7 @@ export const tools: ToolMeta[] = [
     tags: ["barcode", "generator", "ean13", "code128"],
     icon: "Barcode",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "random-picker",
@@ -411,7 +411,7 @@ export const tools: ToolMeta[] = [
     tags: ["random", "picker", "teams", "raffle"],
     icon: "Users",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "fake-data-generator",
@@ -421,7 +421,7 @@ export const tools: ToolMeta[] = [
     tags: ["fake data", "mock", "test data", "generator"],
     icon: "Database",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "invoice-generator",
@@ -432,7 +432,7 @@ export const tools: ToolMeta[] = [
     icon: "Receipt",
     needsBackend: false,
     premiumAlternativeTo: "paid invoicing tools",
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "resume-builder",
@@ -443,7 +443,7 @@ export const tools: ToolMeta[] = [
     icon: "FileUser",
     needsBackend: false,
     premiumAlternativeTo: "paid resume builders",
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "wheel-of-names",
@@ -453,7 +453,7 @@ export const tools: ToolMeta[] = [
     tags: ["wheel", "random", "picker", "spinner"],
     icon: "CircleDot",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "dice-coin-flip",
@@ -463,7 +463,7 @@ export const tools: ToolMeta[] = [
     tags: ["dice", "coin flip", "random", "game"],
     icon: "Dices",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "password-strength-checker",
@@ -473,7 +473,7 @@ export const tools: ToolMeta[] = [
     tags: ["password", "strength", "entropy", "security"],
     icon: "ShieldCheck",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "totp-generator",
@@ -483,7 +483,7 @@ export const tools: ToolMeta[] = [
     tags: ["2fa", "totp", "authenticator", "mfa"],
     icon: "Lock",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "password-breach-checker",
@@ -493,7 +493,7 @@ export const tools: ToolMeta[] = [
     tags: ["password", "breach", "pwned", "security"],
     icon: "ShieldAlert",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "ssl-certificate-checker",
@@ -503,7 +503,7 @@ export const tools: ToolMeta[] = [
     tags: ["ssl", "tls", "certificate", "https"],
     icon: "ScanSearch",
     needsBackend: true,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "pdf-merge",
@@ -513,7 +513,7 @@ export const tools: ToolMeta[] = [
     tags: ["pdf", "merge", "combine"],
     icon: "FilePlus2",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "pdf-split",
@@ -523,7 +523,7 @@ export const tools: ToolMeta[] = [
     tags: ["pdf", "split", "extract", "pages"],
     icon: "Scissors",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "pdf-compress",
@@ -533,7 +533,7 @@ export const tools: ToolMeta[] = [
     tags: ["pdf", "compress", "optimize"],
     icon: "FileMinus2",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "pdf-watermark",
@@ -543,7 +543,7 @@ export const tools: ToolMeta[] = [
     tags: ["pdf", "watermark", "stamp"],
     icon: "Stamp",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "images-to-pdf",
@@ -553,7 +553,7 @@ export const tools: ToolMeta[] = [
     tags: ["images", "pdf", "convert"],
     icon: "Images",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "pdf-to-images",
@@ -563,7 +563,7 @@ export const tools: ToolMeta[] = [
     tags: ["pdf", "images", "convert", "render"],
     icon: "FileOutput",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "age-calculator",
@@ -573,7 +573,7 @@ export const tools: ToolMeta[] = [
     tags: ["age", "calculator", "date", "birthday"],
     icon: "Cake",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "unit-converter",
@@ -583,7 +583,7 @@ export const tools: ToolMeta[] = [
     tags: ["unit", "converter", "length", "weight", "temperature"],
     icon: "Ruler",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "timezone-planner",
@@ -593,7 +593,7 @@ export const tools: ToolMeta[] = [
     tags: ["timezone", "meeting", "planner", "world clock"],
     icon: "Globe",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "tip-calculator",
@@ -603,7 +603,7 @@ export const tools: ToolMeta[] = [
     tags: ["tip", "percentage", "calculator", "bill split"],
     icon: "Percent",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "loan-calculator",
@@ -613,7 +613,7 @@ export const tools: ToolMeta[] = [
     tags: ["loan", "emi", "mortgage", "calculator"],
     icon: "Landmark",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "pomodoro-timer",
@@ -623,7 +623,7 @@ export const tools: ToolMeta[] = [
     tags: ["pomodoro", "timer", "countdown", "focus"],
     icon: "TimerReset",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "currency-converter",
@@ -633,7 +633,7 @@ export const tools: ToolMeta[] = [
     tags: ["currency", "exchange rate", "converter", "money"],
     icon: "Coins",
     needsBackend: true,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "meta-tag-generator",
@@ -643,7 +643,7 @@ export const tools: ToolMeta[] = [
     tags: ["seo", "meta tags", "open graph", "twitter card"],
     icon: "ImagePlay",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "sitemap-generator",
@@ -653,7 +653,7 @@ export const tools: ToolMeta[] = [
     tags: ["sitemap", "seo", "xml", "generator"],
     icon: "FileSpreadsheet",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "robots-generator",
@@ -663,7 +663,7 @@ export const tools: ToolMeta[] = [
     tags: ["robots.txt", "seo", "crawlers", "generator"],
     icon: "Bot",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "broken-link-checker",
@@ -673,7 +673,7 @@ export const tools: ToolMeta[] = [
     tags: ["broken links", "seo", "http status", "checker"],
     icon: "Link2Off",
     needsBackend: true,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "speed-test",
@@ -683,7 +683,7 @@ export const tools: ToolMeta[] = [
     tags: ["speed test", "performance", "lighthouse", "seo"],
     icon: "Gauge",
     needsBackend: true,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "post-length-checker",
@@ -693,7 +693,7 @@ export const tools: ToolMeta[] = [
     tags: ["twitter", "instagram", "character limit", "social media"],
     icon: "MessageSquareText",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "hashtag-generator",
@@ -703,7 +703,7 @@ export const tools: ToolMeta[] = [
     tags: ["hashtag", "generator", "social media", "caption"],
     icon: "Tags",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "username-checker",
@@ -713,7 +713,7 @@ export const tools: ToolMeta[] = [
     tags: ["username", "availability", "github", "checker"],
     icon: "AtSign",
     needsBackend: true,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "youtube-thumbnail-downloader",
@@ -723,7 +723,7 @@ export const tools: ToolMeta[] = [
     tags: ["youtube", "thumbnail", "downloader"],
     icon: "ImageIcon",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "youtube-timestamp-link",
@@ -733,7 +733,7 @@ export const tools: ToolMeta[] = [
     tags: ["youtube", "timestamp", "link", "generator"],
     icon: "Clock3",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "video-trimmer",
@@ -743,7 +743,7 @@ export const tools: ToolMeta[] = [
     tags: ["video", "trim", "cut", "editor"],
     icon: "FileVideo",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "gif-maker",
@@ -753,7 +753,7 @@ export const tools: ToolMeta[] = [
     tags: ["gif", "video", "maker", "converter"],
     icon: "Clapperboard",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "audio-converter",
@@ -763,7 +763,7 @@ export const tools: ToolMeta[] = [
     tags: ["audio", "convert", "mp3", "wav"],
     icon: "FileAudio",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "video-compressor",
@@ -773,7 +773,7 @@ export const tools: ToolMeta[] = [
     tags: ["video", "compress", "shrink"],
     icon: "Minimize2",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
   {
     slug: "audio-trimmer",
@@ -783,7 +783,7 @@ export const tools: ToolMeta[] = [
     tags: ["audio", "trim", "merge", "editor"],
     icon: "AudioWaveform",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+    author: { name: "Toolhub", url: "https://github.com/syzygy-hq/toolhub" },
   },
 ];
 

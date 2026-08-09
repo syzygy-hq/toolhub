@@ -6,7 +6,7 @@ import { Pause, Play, Square } from "lucide-react";
 export function TextToSpeech() {
   const [supported, setSupported] = useState(true);
   const [text, setText] = useState(
-    "Paste any text here and Toolbox will read it out loud, using your browser's built-in voices."
+    "Paste any text here and Toolhub will read it out loud, using your browser's built-in voices."
   );
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [voiceIndex, setVoiceIndex] = useState(0);

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { marked } from "marked";
 import DOMPurify from "dompurify";
 
-const DEFAULT_MARKDOWN = `# Hello, Toolbox
+const DEFAULT_MARKDOWN = `# Hello, Toolhub
 
 Type some **markdown** on the left — it renders live here, sanitized before
 it hits the page.

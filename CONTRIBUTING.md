@@ -1,6 +1,6 @@
 # Contributing a tool
 
-Toolbox is a Next.js app where every tool is a self-contained folder plus one
+Toolhub is a Next.js app where every tool is a self-contained folder plus one
 entry in a metadata registry. Add your name, get credited, no gatekeeping.
 
 ## 1. Pick a slug and make a folder

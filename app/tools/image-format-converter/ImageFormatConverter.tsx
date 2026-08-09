@@ -54,10 +54,10 @@ export function ImageFormatConverter() {
       </label>
 
       {previewUrl && (
-        <div className="flex items-center gap-4">
+        <div className="flex flex-wrap items-center gap-4">
           {/* eslint-disable-next-line @next/next/no-img-element -- local blob preview */}
           <img src={previewUrl} alt={file?.name} className="h-24 w-24 rounded-md border border-line object-cover" />
-          <p className="text-sm text-ink-soft">{file?.name}</p>
+          <p className="min-w-0 break-words text-sm text-ink-soft">{file?.name}</p>
         </div>
       )}
 

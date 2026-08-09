@@ -1,7 +1,17 @@
 {
-  "name": "tools",
+  "name": "toolhub",
   "version": "0.1.0",
   "private": true,
+  "description": "A free, open-source workshop of small browser-based utilities.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syzygy-hq/toolhub.git"
+  },
+  "homepage": "https://github.com/syzygy-hq/toolhub#readme",
+  "bugs": {
+    "url": "https://github.com/syzygy-hq/toolhub/issues"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
