@@ -17,5 +17,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run lint
-      - run: npx tsc --noEmit
+      # next build type-checks the whole project itself; a standalone `tsc
+      # --noEmit` here would fail because Next's route types (LayoutProps,
+      # PageProps, etc.) are only generated during build/dev.
       - run: npm run build
