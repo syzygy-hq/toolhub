@@ -14,14 +14,14 @@ on the tool card and in the table below.
 <!-- TOOLS_TABLE_START -->
 | Tool | Category | Needs backend | Author |
 | --- | --- | --- | --- |
-| [YouTube Playlist Length Calculator](app/tools/youtube-playlist-length) | Video & Audio | Yes | [Toolbox](https://github.com) |
-| [JSON Formatter & Validator](app/tools/json-formatter) | Developer | No | [Toolbox](https://github.com) |
-| [Password Generator](app/tools/password-generator) | Security | No | [Toolbox](https://github.com) |
-| [Word & Character Counter](app/tools/word-counter) | Text | No | [Toolbox](https://github.com) |
-| [Color Converter & Picker](app/tools/color-converter) | Developer | No | [Toolbox](https://github.com) |
-| [QR Code Generator](app/tools/qr-code-generator) | Generators | No | [Toolbox](https://github.com) |
-| [Image Compressor](app/tools/image-compressor) | Image | No | [Toolbox](https://github.com) |
-| [Base64 & JWT Decoder](app/tools/base64-jwt-decoder) | Developer | No | [Toolbox](https://github.com) |
+| [YouTube Playlist Length Calculator](app/tools/youtube-playlist-length) | Video & Audio | Yes | [Toolbox](https://github.com/masabinhok) |
+| [JSON Formatter & Validator](app/tools/json-formatter) | Developer | No | [Toolbox](https://github.com/masabinhok) |
+| [Password Generator](app/tools/password-generator) | Security | No | [Toolbox](https://github.com/masabinhok) |
+| [Word & Character Counter](app/tools/word-counter) | Text | No | [Toolbox](https://github.com/masabinhok) |
+| [Color Converter & Picker](app/tools/color-converter) | Developer | No | [Toolbox](https://github.com/masabinhok) |
+| [QR Code Generator](app/tools/qr-code-generator) | Generators | No | [Toolbox](https://github.com/masabinhok) |
+| [Image Compressor](app/tools/image-compressor) | Image | No | [Toolbox](https://github.com/masabinhok) |
+| [Base64 & JWT Decoder](app/tools/base64-jwt-decoder) | Developer | No | [Toolbox](https://github.com/masabinhok) |
 <!-- TOOLS_TABLE_END -->
 
 Run `npm run generate:readme` after adding a tool to `lib/tools-registry.ts`

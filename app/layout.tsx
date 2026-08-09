@@ -55,7 +55,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 Contribute
               </Link>
               <a
-                href="https://github.com"
+                href="https://github.com/masabinhok/tools"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-md border border-line bg-paper-card px-3 py-1.5 text-ink hover:border-amber hover:text-amber transition-colors"
@@ -72,7 +72,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <p>
               Built one tool at a time.{" "}
               <a
-                href="https://github.com"
+                href="https://github.com/masabinhok/tools"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-ink hover:text-amber transition-colors"

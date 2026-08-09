@@ -36,7 +36,7 @@ export const tools: ToolMeta[] = [
     icon: "ListVideo",
     needsBackend: true,
     premiumAlternativeTo: "playlist length calculator extensions",
-    author: { name: "Toolbox", url: "https://github.com" },
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
   },
   {
     slug: "json-formatter",
@@ -47,7 +47,7 @@ export const tools: ToolMeta[] = [
     tags: ["json", "formatter", "validator", "beautify"],
     icon: "Braces",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com" },
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
   },
   {
     slug: "password-generator",
@@ -59,7 +59,7 @@ export const tools: ToolMeta[] = [
     icon: "KeyRound",
     needsBackend: false,
     premiumAlternativeTo: "password manager generators",
-    author: { name: "Toolbox", url: "https://github.com" },
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
   },
   {
     slug: "word-counter",
@@ -70,7 +70,7 @@ export const tools: ToolMeta[] = [
     tags: ["text", "word count", "characters", "reading time"],
     icon: "Type",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com" },
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
   },
   {
     slug: "color-converter",
@@ -81,7 +81,7 @@ export const tools: ToolMeta[] = [
     tags: ["color", "hex", "rgb", "hsl", "picker"],
     icon: "Palette",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com" },
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
   },
   {
     slug: "qr-code-generator",
@@ -93,7 +93,7 @@ export const tools: ToolMeta[] = [
     icon: "QrCode",
     needsBackend: false,
     premiumAlternativeTo: "paid QR code generators",
-    author: { name: "Toolbox", url: "https://github.com" },
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
   },
   {
     slug: "image-compressor",
@@ -105,7 +105,7 @@ export const tools: ToolMeta[] = [
     icon: "ImageDown",
     needsBackend: false,
     premiumAlternativeTo: "TinyPNG-style compressors",
-    author: { name: "Toolbox", url: "https://github.com" },
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
   },
   {
     slug: "base64-jwt-decoder",
@@ -116,7 +116,7 @@ export const tools: ToolMeta[] = [
     tags: ["base64", "jwt", "decoder", "encode"],
     icon: "ScanText",
     needsBackend: false,
-    author: { name: "Toolbox", url: "https://github.com" },
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
   },
 ];
 
