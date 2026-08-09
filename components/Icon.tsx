@@ -21,6 +21,11 @@ import {
   FileCode2,
   Wand2,
   Terminal,
+  CaseSensitive,
+  Slash,
+  Replace,
+  Rows3,
+  Volume2,
   Wrench,
   type LucideIcon,
 } from "lucide-react";
@@ -48,6 +53,11 @@ const registry: Record<string, LucideIcon> = {
   FileCode2,
   Wand2,
   Terminal,
+  CaseSensitive,
+  Slash,
+  Replace,
+  Rows3,
+  Volume2,
 };
 
 export function Icon({

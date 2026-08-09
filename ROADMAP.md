@@ -35,11 +35,11 @@ Status: ✅ live · 🚧 queued next · ⬜ backlog
 ## Phase 2 — Text
 
 - ✅ Word & Character Counter
-- ⬜ Case Converter (camelCase, snake_case, Title Case, …)
-- ⬜ Slug Generator
-- ⬜ Find & Replace (with regex, across large text)
-- ⬜ Duplicate Line Remover / Sorter
-- ⬜ Text-to-Speech (client-side via Web Speech API)
+- ✅ Case Converter (camelCase, snake_case, Title Case, …)
+- ✅ Slug Generator
+- ✅ Find & Replace (with regex, across large text)
+- ✅ Duplicate Line Remover / Sorter
+- ✅ Text-to-Speech (client-side via Web Speech API)
 - ⬜ Text Summarizer **[needs API key]**
 - ⬜ Grammar / Spell Checker **[needs API key]**
 

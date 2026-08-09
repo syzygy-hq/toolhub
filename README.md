@@ -36,6 +36,11 @@ on the tool card and in the table below.
 | [YAML ⇄ JSON Converter](app/tools/yaml-json-converter) | Developer | No | [Toolbox](https://github.com/masabinhok) |
 | [Code Formatter](app/tools/code-formatter) | Developer | No | [Toolbox](https://github.com/masabinhok) |
 | [curl → fetch Converter](app/tools/curl-to-fetch) | Developer | No | [Toolbox](https://github.com/masabinhok) |
+| [Case Converter](app/tools/case-converter) | Text | No | [Toolbox](https://github.com/masabinhok) |
+| [Slug Generator](app/tools/slug-generator) | Text | No | [Toolbox](https://github.com/masabinhok) |
+| [Find & Replace](app/tools/find-replace) | Text | No | [Toolbox](https://github.com/masabinhok) |
+| [Duplicate Line Remover & Sorter](app/tools/line-tools) | Text | No | [Toolbox](https://github.com/masabinhok) |
+| [Text to Speech](app/tools/text-to-speech) | Text | No | [Toolbox](https://github.com/masabinhok) |
 <!-- TOOLS_TABLE_END -->
 
 Run `npm run generate:readme` after adding a tool to `lib/tools-registry.ts`
