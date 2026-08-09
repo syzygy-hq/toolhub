@@ -34,7 +34,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-full flex flex-col">
         <header className="sticky top-0 z-20 border-b border-line bg-paper/90 backdrop-blur">
-          <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
+          <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
             <Link
               href="/"
               className="flex items-center gap-2 font-display text-lg font-bold tracking-tight text-ink"
@@ -67,7 +67,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         </header>
         <main className="flex-1">{children}</main>
         <footer className="border-t border-line">
-          <div className="mx-auto flex max-w-6xl flex-col gap-2 px-5 py-8 font-mono text-xs text-ink-soft sm:flex-row sm:items-center sm:justify-between">
+          <div className="mx-auto flex max-w-7xl flex-col gap-2 px-5 py-8 font-mono text-xs text-ink-soft sm:flex-row sm:items-center sm:justify-between">
             <p>Toolbox — free & open source. No accounts, no tracking, no paywalls.</p>
             <p>
               Built one tool at a time.{" "}

@@ -794,3 +794,7 @@ export const categories = Array.from(
 export function getToolBySlug(slug: string): ToolMeta | undefined {
   return tools.find((t) => t.slug === slug);
 }
+
+export function categorySlug(category: ToolCategory): string {
+  return category.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+}
