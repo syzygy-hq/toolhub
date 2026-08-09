@@ -46,13 +46,13 @@ Status: ✅ live · 🚧 queued next · ⬜ backlog
 ## Phase 3 — Image
 
 - ✅ Image Compressor
-- ⬜ Format Converter (PNG/JPG/WebP/AVIF)
-- ⬜ Image Resizer
-- ⬜ Favicon Generator (all sizes from one image)
-- ⬜ EXIF Viewer / Remover
-- ⬜ Meme Generator
-- ⬜ Image ⇄ Base64 Converter
-- ⬜ Collage / Grid Maker
+- ✅ Format Converter (PNG/JPEG/WebP)
+- ✅ Image Resizer
+- ✅ Favicon Generator (all sizes from one image, zipped)
+- ✅ EXIF Viewer / Remover
+- ✅ Meme Generator
+- ✅ Image ⇄ Base64 Converter
+- ✅ Collage / Grid Maker
 - ⬜ Background Remover **[needs API key]**
 - ⬜ Image Upscaler **[needs API key]**
 

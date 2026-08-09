@@ -26,6 +26,13 @@ import {
   Replace,
   Rows3,
   Volume2,
+  FileImage,
+  Maximize2,
+  AppWindow,
+  Info,
+  Smile,
+  Code,
+  LayoutGrid,
   Wrench,
   type LucideIcon,
 } from "lucide-react";
@@ -58,6 +65,13 @@ const registry: Record<string, LucideIcon> = {
   Replace,
   Rows3,
   Volume2,
+  FileImage,
+  Maximize2,
+  AppWindow,
+  Info,
+  Smile,
+  Code,
+  LayoutGrid,
 };
 
 export function Icon({

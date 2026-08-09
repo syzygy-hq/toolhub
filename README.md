@@ -41,6 +41,13 @@ on the tool card and in the table below.
 | [Find & Replace](app/tools/find-replace) | Text | No | [Toolbox](https://github.com/masabinhok) |
 | [Duplicate Line Remover & Sorter](app/tools/line-tools) | Text | No | [Toolbox](https://github.com/masabinhok) |
 | [Text to Speech](app/tools/text-to-speech) | Text | No | [Toolbox](https://github.com/masabinhok) |
+| [Image Format Converter](app/tools/image-format-converter) | Image | No | [Toolbox](https://github.com/masabinhok) |
+| [Image Resizer](app/tools/image-resizer) | Image | No | [Toolbox](https://github.com/masabinhok) |
+| [Favicon Generator](app/tools/favicon-generator) | Image | No | [Toolbox](https://github.com/masabinhok) |
+| [EXIF Viewer & Remover](app/tools/exif-viewer) | Image | No | [Toolbox](https://github.com/masabinhok) |
+| [Meme Generator](app/tools/meme-generator) | Image | No | [Toolbox](https://github.com/masabinhok) |
+| [Image ⇄ Base64 Converter](app/tools/image-base64-converter) | Image | No | [Toolbox](https://github.com/masabinhok) |
+| [Collage / Grid Maker](app/tools/collage-maker) | Image | No | [Toolbox](https://github.com/masabinhok) |
 <!-- TOOLS_TABLE_END -->
 
 Run `npm run generate:readme` after adding a tool to `lib/tools-registry.ts`
