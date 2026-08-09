@@ -40,6 +40,10 @@ import {
   FileUser,
   CircleDot,
   Dices,
+  ShieldCheck,
+  ShieldAlert,
+  ScanSearch,
+  Lock,
   Wrench,
   type LucideIcon,
 } from "lucide-react";
@@ -86,6 +90,10 @@ const registry: Record<string, LucideIcon> = {
   FileUser,
   CircleDot,
   Dices,
+  ShieldCheck,
+  ShieldAlert,
+  ScanSearch,
+  Lock,
 };
 
 export function Icon({

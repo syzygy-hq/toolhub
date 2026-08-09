@@ -1,0 +1,10 @@
+export const commonPasswords = new Set([
+  "123456", "password", "12345678", "qwerty", "123456789", "12345",
+  "1234", "111111", "1234567", "dragon", "123123", "baseball",
+  "abc123", "football", "monkey", "letmein", "shadow", "master",
+  "666666", "qwertyuiop", "123321", "mustang", "1234567890", "michael",
+  "654321", "superman", "1qaz2wsx", "7777777", "121212", "000000",
+  "trustno1", "batman", "iloveyou", "welcome", "admin", "sunshine",
+  "princess", "login", "solo", "starwars", "passw0rd", "hello",
+  "freedom", "whatever", "qazwsx", "flower", "ninja", "hottie",
+]);

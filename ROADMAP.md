@@ -68,12 +68,12 @@ Status: ✅ live · 🚧 queued next · ⬜ backlog
 - ✅ Wheel-of-Names Picker
 - ✅ Dice / Coin Flip
 
-## Phase 5 — Security
+## Phase 5 — Security ✅ complete
 
-- ⬜ Password Strength Checker (standalone)
-- ⬜ 2FA / TOTP Code Generator (paste a secret, client-side)
-- ⬜ Password Breach Checker **[needs API key — HaveIBeenPwned k-anonymity]**
-- ⬜ SSL/TLS Certificate Checker **[needs API key]**
+- ✅ Password Strength Checker (standalone)
+- ✅ 2FA / TOTP Code Generator (paste a secret, client-side)
+- ✅ Password Breach Checker (HaveIBeenPwned k-anonymity — free, no key needed)
+- ✅ SSL/TLS Certificate Checker (backend proxy to crt.sh — free, no key needed)
 
 ## Phase 6 — PDF
 

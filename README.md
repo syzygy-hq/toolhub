@@ -55,6 +55,10 @@ on the tool card and in the table below.
 | [Resume / CV Builder](app/tools/resume-builder) | Generators | No | [Toolbox](https://github.com/masabinhok) |
 | [Wheel of Names](app/tools/wheel-of-names) | Generators | No | [Toolbox](https://github.com/masabinhok) |
 | [Dice Roller & Coin Flip](app/tools/dice-coin-flip) | Generators | No | [Toolbox](https://github.com/masabinhok) |
+| [Password Strength Checker](app/tools/password-strength-checker) | Security | No | [Toolbox](https://github.com/masabinhok) |
+| [2FA / TOTP Code Generator](app/tools/totp-generator) | Security | No | [Toolbox](https://github.com/masabinhok) |
+| [Password Breach Checker](app/tools/password-breach-checker) | Security | No | [Toolbox](https://github.com/masabinhok) |
+| [SSL Certificate Checker](app/tools/ssl-certificate-checker) | Security | Yes | [Toolbox](https://github.com/masabinhok) |
 <!-- TOOLS_TABLE_END -->
 
 Run `npm run generate:readme` after adding a tool to `lib/tools-registry.ts`
