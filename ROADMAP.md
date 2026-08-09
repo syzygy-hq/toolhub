@@ -111,11 +111,28 @@ Status: ✅ live · 🚧 queued next · ⬜ backlog
 ## Phase 10 — Video & Audio
 
 - ✅ YouTube Playlist Length Calculator
-- ⬜ Video Trimmer / Cropper (ffmpeg.wasm)
-- ⬜ GIF Maker from Video Clip (ffmpeg.wasm)
-- ⬜ Audio Format Converter (ffmpeg.wasm)
-- ⬜ Video Compressor (ffmpeg.wasm)
-- ⬜ Audio Trimmer / Merger (ffmpeg.wasm)
-- ⬜ YouTube Thumbnail Downloader
-- ⬜ YouTube Timestamp Link Generator
-- ⬜ Subtitle (.srt) Generator **[needs API key]**
+- ✅ Video Trimmer (ffmpeg.wasm, lazy-loaded from a public CDN)
+- ✅ GIF Maker from Video Clip (ffmpeg.wasm)
+- ✅ Audio Format Converter (ffmpeg.wasm)
+- ✅ Video Compressor (ffmpeg.wasm)
+- ✅ Audio Trimmer & Merger (ffmpeg.wasm)
+- ✅ YouTube Thumbnail Downloader
+- ✅ YouTube Timestamp Link Generator
+- ⬜ Subtitle (.srt) Generator — needs real speech-to-text (a cloud API with a
+  key, or an in-browser Whisper model via transformers.js/whisper-web, which
+  is a much bigger dependency than anything else here). Left for a dedicated
+  future pass.
+
+## Remaining backlog (all require a real API key or a heavy ML model)
+
+- ⬜ Text Summarizer (Phase 2)
+- ⬜ Grammar / Spell Checker (Phase 2)
+- ⬜ Background Remover (Phase 3)
+- ⬜ Image Upscaler (Phase 3)
+- ⬜ Subtitle (.srt) Generator (Phase 10)
+
+Everything else in every category above is live. These five are the only
+ones that couldn't be built "free and keyless" the way the rest of the site
+was — they need either a paid AI API (with a bring-your-own-key prompt like
+the YouTube tool) or a large in-browser ML model. Worth a deliberate,
+separate decision rather than folding into the sprint.

@@ -28,6 +28,26 @@ export class YoutubeApiError extends Error {
   }
 }
 
+export function extractVideoId(input: string): string | null {
+  const trimmed = input.trim();
+  try {
+    const url = new URL(trimmed);
+    if (url.hostname.includes("youtu.be")) {
+      return url.pathname.slice(1).split("/")[0] || null;
+    }
+    const vParam = url.searchParams.get("v");
+    if (vParam) return vParam;
+    const shortsMatch = url.pathname.match(/\/shorts\/([\w-]+)/);
+    if (shortsMatch) return shortsMatch[1];
+    const embedMatch = url.pathname.match(/\/embed\/([\w-]+)/);
+    if (embedMatch) return embedMatch[1];
+    return null;
+  } catch {
+    if (/^[\w-]{11}$/.test(trimmed)) return trimmed;
+    return null;
+  }
+}
+
 export function extractPlaylistId(input: string): string | null {
   const trimmed = input.trim();
   try {

@@ -10,6 +10,8 @@
     "generate:readme": "tsx scripts/generate-readme.mts"
   },
   "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.15",
+    "@ffmpeg/util": "^0.12.2",
     "browser-image-compression": "^2.0.2",
     "cron-parser": "^5.7.0",
     "cronstrue": "^3.24.0",

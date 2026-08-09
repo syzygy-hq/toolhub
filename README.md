@@ -80,6 +80,13 @@ on the tool card and in the table below.
 | [Social Post Length Checker](app/tools/post-length-checker) | Social | No | [Toolbox](https://github.com/masabinhok) |
 | [Hashtag Generator](app/tools/hashtag-generator) | Social | No | [Toolbox](https://github.com/masabinhok) |
 | [Username Availability Checker](app/tools/username-checker) | Social | Yes | [Toolbox](https://github.com/masabinhok) |
+| [YouTube Thumbnail Downloader](app/tools/youtube-thumbnail-downloader) | Video & Audio | No | [Toolbox](https://github.com/masabinhok) |
+| [YouTube Timestamp Link Generator](app/tools/youtube-timestamp-link) | Video & Audio | No | [Toolbox](https://github.com/masabinhok) |
+| [Video Trimmer](app/tools/video-trimmer) | Video & Audio | No | [Toolbox](https://github.com/masabinhok) |
+| [GIF Maker](app/tools/gif-maker) | Video & Audio | No | [Toolbox](https://github.com/masabinhok) |
+| [Audio Format Converter](app/tools/audio-converter) | Video & Audio | No | [Toolbox](https://github.com/masabinhok) |
+| [Video Compressor](app/tools/video-compressor) | Video & Audio | No | [Toolbox](https://github.com/masabinhok) |
+| [Audio Trimmer & Merger](app/tools/audio-trimmer) | Video & Audio | No | [Toolbox](https://github.com/masabinhok) |
 <!-- TOOLS_TABLE_END -->
 
 Run `npm run generate:readme` after adding a tool to `lib/tools-registry.ts`

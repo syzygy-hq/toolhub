@@ -65,6 +65,13 @@ import {
   MessageSquareText,
   Tags,
   AtSign,
+  ImageIcon,
+  Clock3,
+  FileVideo,
+  Clapperboard,
+  FileAudio,
+  Minimize2,
+  AudioWaveform,
   Wrench,
   type LucideIcon,
 } from "lucide-react";
@@ -136,6 +143,13 @@ const registry: Record<string, LucideIcon> = {
   MessageSquareText,
   Tags,
   AtSign,
+  ImageIcon,
+  Clock3,
+  FileVideo,
+  Clapperboard,
+  FileAudio,
+  Minimize2,
+  AudioWaveform,
 };
 
 export function Icon({
