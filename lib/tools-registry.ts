@@ -7,7 +7,8 @@ export type ToolCategory =
   | "Security"
   | "PDF"
   | "Productivity"
-  | "SEO & Web";
+  | "SEO & Web"
+  | "Social";
 
 export interface ToolAuthor {
   name: string;
@@ -681,6 +682,36 @@ export const tools: ToolMeta[] = [
     category: "SEO & Web",
     tags: ["speed test", "performance", "lighthouse", "seo"],
     icon: "Gauge",
+    needsBackend: true,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "post-length-checker",
+    name: "Social Post Length Checker",
+    description: "Check your post against the character limits for X, Instagram, LinkedIn, and more.",
+    category: "Social",
+    tags: ["twitter", "instagram", "character limit", "social media"],
+    icon: "MessageSquareText",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "hashtag-generator",
+    name: "Hashtag Generator",
+    description: "Pull hashtag-worthy keywords out of your caption and format them, plus add your own.",
+    category: "Social",
+    tags: ["hashtag", "generator", "social media", "caption"],
+    icon: "Tags",
+    needsBackend: false,
+    author: { name: "Toolbox", url: "https://github.com/masabinhok" },
+  },
+  {
+    slug: "username-checker",
+    name: "Username Availability Checker",
+    description: "Check if a username is free across GitHub, GitLab, Dev.to, and Hacker News.",
+    category: "Social",
+    tags: ["username", "availability", "github", "checker"],
+    icon: "AtSign",
     needsBackend: true,
     author: { name: "Toolbox", url: "https://github.com/masabinhok" },
   },

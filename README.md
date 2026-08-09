@@ -77,6 +77,9 @@ on the tool card and in the table below.
 | [Robots.txt Generator](app/tools/robots-generator) | SEO & Web | No | [Toolbox](https://github.com/masabinhok) |
 | [Broken Link Checker](app/tools/broken-link-checker) | SEO & Web | Yes | [Toolbox](https://github.com/masabinhok) |
 | [Website Speed Test](app/tools/speed-test) | SEO & Web | Yes | [Toolbox](https://github.com/masabinhok) |
+| [Social Post Length Checker](app/tools/post-length-checker) | Social | No | [Toolbox](https://github.com/masabinhok) |
+| [Hashtag Generator](app/tools/hashtag-generator) | Social | No | [Toolbox](https://github.com/masabinhok) |
+| [Username Availability Checker](app/tools/username-checker) | Social | Yes | [Toolbox](https://github.com/masabinhok) |
 <!-- TOOLS_TABLE_END -->
 
 Run `npm run generate:readme` after adding a tool to `lib/tools-registry.ts`

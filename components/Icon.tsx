@@ -62,6 +62,9 @@ import {
   Bot,
   Link2Off,
   Gauge,
+  MessageSquareText,
+  Tags,
+  AtSign,
   Wrench,
   type LucideIcon,
 } from "lucide-react";
@@ -130,6 +133,9 @@ const registry: Record<string, LucideIcon> = {
   Bot,
   Link2Off,
   Gauge,
+  MessageSquareText,
+  Tags,
+  AtSign,
 };
 
 export function Icon({

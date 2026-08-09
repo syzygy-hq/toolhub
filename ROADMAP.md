@@ -102,11 +102,11 @@ Status: ✅ live · 🚧 queued next · ⬜ backlog
 - ✅ Broken Link Checker (backend proxy, SSRF-guarded, no key needed)
 - ✅ Website Speed Test (backend proxy to Google PageSpeed Insights, no key required)
 
-## Phase 9 — Social
+## Phase 9 — Social ✅ complete
 
-- ⬜ Post-Length Checker (X/Twitter, Instagram captions)
-- ⬜ Hashtag Generator / Suggester
-- ⬜ Username Availability Checker **[needs API key]**
+- ✅ Post-Length Checker (X/Twitter, Instagram, LinkedIn, TikTok, YouTube, …)
+- ✅ Hashtag Generator (keyword extraction from your caption, not AI-guessed)
+- ✅ Username Availability Checker (GitHub, GitLab, Dev.to, Hacker News — real keyless APIs, no key needed)
 
 ## Phase 10 — Video & Audio
 
